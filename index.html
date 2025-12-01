@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Personal Portfolio showcasing my projects and skills.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Ahmad</span></h1>
+                <p>I am a <span class="typing-text"></span></p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>A diligent Data Science & Artificial Intelligence bachelor’s degree student with strong
+                            passion for learning, discovery and continuous improvement. Highly Interested in exploration
+                            of hidden dimensions of data, uncovering patterns, connections and insights. Driven to
+                            understand how data supports and enhances business processes, decision-making and strategic
+                            goals. Highly focused on analytical thinking and automation, turning complex data into
+                            actionable knowledge with real world impact.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">Predictive Modeling</div>
+                        <div class="skill-card">Power BI / Azure / AWS / GCP</div>
+                        <div class="skill-card">Docker</div>
+                        <div class="skill-card">N8N</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="leadership" class="leadership">
+            <div class="container">
+                <h2 class="section-title">Leadership Activities</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Sponsorship Management</h3>
+                            <p class="role-date">Google Developer Student Club – HTU | 10/2025 - Current</p>
+                            <p>• Identified and secured sponsorships to support GDG HTU's initiatives and events.<br>
+                                • Collaborated with the event and marketing teams to ensure sponsors gained meaningful
+                                visibility and engagement.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Staff Member</h3>
+                            <p class="role-date">Google Developers Group Amman | 06/2025 - Current</p>
+                            <p>• Led ushering logistics and pre-event operations for GDG Amman events.<br>
+                                • Managed operations throughout the event resolving real-time issues.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Audience Journey & Speaker Curation</h3>
+                            <p class="role-date">TEDxAmman | 05/2025 - 10/2025</p>
+                            <p>• Researched, contacted and interviewed potential speakers.<br>
+                                • Refined talk topics and crafted compelling narratives.<br>
+                                • Mapped end-to-end attendee journey.<br>
+                                • Recruited and trained 100 ushers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Bachelor of Science: Data Science & AI</h3>
+                            <p class="role-date">AlHussein Technical University (HTU) | Expected 10/2027</p>
+                            <p>3rd Year Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Cards will go here -->
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3>Image Classifier</h3>
+                            <p>A deep learning model capable of classifying images with high accuracy using CNNs.</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3>Sentiment Analysis</h3>
+                            <p>NLP model that analyzes text data to determine sentiment and emotional tone.</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3>Predictive Analytics</h3>
+                            <p>Data analysis project using regression models to predict future trends.</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <div class="contact-links">
+                    <a href="mailto:Ahmad.h.jarrar@gmail.com" class="contact-button">Email Me</a>
+                    <a href="https://linkedin.com/in/ahmadhj" target="_blank" rel="noopener noreferrer"
+                        class="contact-button">LinkedIn</a>
+                    <a href="https://github.com/Ahmadhj4" target="_blank" rel="noopener noreferrer"
+                        class="contact-button">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Ahmad Jarrar. All rights reserved.</p>
+    </footer>
+
+    <script src="dist/script.js"></script>
+</body>
+
+</html>

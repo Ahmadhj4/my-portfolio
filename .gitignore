@@ -1,0 +1,50 @@
+# ==============================
+# Node / Frontend Dependencies
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Cache
+.cache/
+.next/
+.vite/
+vite.config.ts.timestamp*
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+
+# Production files
+*.local
+*.backup
+
+# Optional: If you use images/videos in src/uploads
+uploads/
